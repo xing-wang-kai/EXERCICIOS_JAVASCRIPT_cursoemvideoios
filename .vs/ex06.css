@@ -20,6 +20,8 @@ body{
     margin-top: 40px;
     padding: 20px;
     border-radius: 20px;
+
+    text-align: center;
 }
 
 footer{
@@ -32,4 +34,69 @@ footer{
     text-align: center;
     margin: auto;
     width: 300px;
+}
+
+input{
+
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50px;
+    text-align: center;
+
+    background-color: rgb(137, 220, 253);
+    border: 2px solid rgb(0, 101, 141);
+
+    color: rgb(0, 101, 141);
+    font-size: 1.5em;
+}
+
+.botao {
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    text-align: center;
+
+    background-color: rgb(137, 220, 253);
+    border: 2px solid rgb(0, 101, 141);
+
+    color: rgb(0, 101, 141);
+    font-size: 1.5em;
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.329);
+    transition: 2s;
+}
+
+.botao:hover {
+    
+
+    background-color: rgb(237, 142, 250);
+    border: 2px solid rgb(199, 2, 199);
+
+    color: rgb(199, 2, 199);
+    font-size: 1.5em;
+    box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.329);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+select {
+    border-radius: 50px;
+    padding: 15px;
+    
+    width: 350px;
+    text-align: center;
+
+    background-color: rgb(137, 220, 253);
+    border: 2px solid rgb(0, 101, 141);
+
+    color: rgb(0, 101, 141);
+    font-size: 1.5em;
+    
+}
+option {
+    border-radius: 50px;
 }
