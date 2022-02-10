@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: black;
+        }
+        .container {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 700px;
+            background-color: rgb(195, 246, 255);
+            color: rgb(165, 0, 187);
+            font-family: arial;
+            border-radius: 50px;
+        }
+        .container h1{
+            text-align: center;
+            padding-top: 50px;
+            
+        }
+        .container p{
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            "OLÁ MUNDO"
+        </h1>
+        <p>Este é somente um parágrafo de texte para exercícios com 
+            DOM no javascript
+        </p>
+        <p>Este é <strong>mais um paraágrafo</strong>  para os texte com o curso de javascript</p>
+    
+        <div>CLICK AQUI</div>
+    </div>
+
+    <script>
+        document.querySelector(".container h1").textContent = "novo teste"
+        window.document.write(window.document)
+        var p1 = window.document.getElementsByTagName("p")[0];
+            
+        window.document.write("<br>esta escrito assim.</br>" + p1.innerText)
+        p1.style.color = "red";
+        window.document.body.style.background = "pink";
+        var novacor = window.document.getElementsByTagName("div")[0]
+        var borda = window.document.getElementsByClassName("container")[0]
+        novacor.style.background = "orange";
+        borda.style.background = "yellow";
+        
+
+    </script>
+    
+</body>
+</html>

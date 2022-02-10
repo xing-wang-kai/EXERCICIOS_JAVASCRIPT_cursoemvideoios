@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Exercício 001</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+    </footer>
+    <script>
+        var nome = window.prompt("digite o nome do aluno: ");
+        var nota1 = Number.parseFloat(window.prompt("digite a primeira nota do aluno: "));
+        var nota2 = Number.parseFloat(window.prompt("digite a segunda nota do aluno: "));
+
+        var media = (nota1 + nota2) / 2;
+
+        if (media >= 7) {
+            window.alert(`O Aluno ${nome} tirou a nédia ${media} e foi APROVADO`);
+           
+        }
+        
+        else {
+            if (media >= 5) {
+                window.alert("A média do " + nome + " foi: " + media + " e " + nome + " está em RECUPERAÇÂO!!")
+
+            } else {
+                window.alert("A média do " + nome + " foi: " + media + " e " + nome + " foi REPROVADO")
+            }
+        }
+
+    </script>
+</body>
+</html>

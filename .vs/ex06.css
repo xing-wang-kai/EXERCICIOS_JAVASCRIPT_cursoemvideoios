@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(2, 39, 119);
+}
+
+.container_header{
+    background-color: rgb(49, 197, 255);
+    color: rgb(171, 237, 253);
+    text-align: center;
+
+    width: 500px;
+    margin: auto;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.container_main{
+    background-color: rgb(139, 194, 241);
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: rgb(72, 114, 161);
+}
+.foto {
+    border-radius: 200px;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+}

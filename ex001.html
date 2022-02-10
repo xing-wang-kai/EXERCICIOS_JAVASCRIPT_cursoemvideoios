@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Exercício 001</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+    </footer>
+    <script>
+        var get_nome = window.prompt("qual teu nome?")
+        window.confirm("É este mesmo o teu nome? ")
+        window.alert(get_nome)
+
+        var get_numero1 = window.prompt("digite o primeiro número: ");
+        var get_numero2 = window.prompt("digite o segundo número: ");
+        var confirmar = window.confirm("São esses os números digitados? " + get_numero1 + " " + get_numero2);
+        if (confirmar == true) {
+            var soma = parseFloat(get_numero1) + parseFloat(get_numero2);
+            window.alert("A soma dos valores digitados é " + soma);
+        }
+        else {
+            window.alert("Nenhuma ação será tomada");
+        }
+
+    </script>
+</body>
+</html>

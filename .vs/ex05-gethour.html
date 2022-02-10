@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="ex05-gethour.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="ex05-gethour.css">
+    <title>GetHour</title>
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <h1 class="containerdia">BOM DIA!</h1>
+            <p class="horaatual">hora atual</p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container_main">
+
+            <div>
+                <figure>
+                    <img src="../amanhecer2.jpg" alt="foto do amanhecer" class="getimg">
+                    <figcaption class="figcaption">POR DO SOL</figcaption>
+                </figure>
+
+            </div>
+
+            <div>
+                <div class="formularios">
+                    <div class="label01">
+                        <label for="horadigitada">Qual a Hora desejada? </label>
+                        <input type="number" min="0" max="24" class="thishour" value="0">
+                        <button class="botaoDesj"> CONFIRMAR </button>
+                    </div>
+                   
+                    <div class="label02">
+                        <label for="botaohour">Ou deseja pegar a hora do sistema? </label> 
+                        <button class="botaohour"> HORA DO SISTEMA </button>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h3>&copy; meu experimentos com JAVASCRIPT</h3>
+    </footer>
+    <script type="text/javascript" src="ex05.gethour.js"></script>
+    
+</body>
+</html>

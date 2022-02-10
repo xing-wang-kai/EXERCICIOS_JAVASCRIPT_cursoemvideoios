@@ -1,0 +1,104 @@
+body{
+    background-color: antiquewhite;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_header{
+
+    background-color: rgb(253, 141, 225);
+    
+    text-align: center;
+    border-radius: 100px;
+    padding: 20px;
+    margin-top: 50px;
+
+
+    border: 10px solid;
+    border-color: rgb(236, 175, 221);
+
+    
+}
+header{
+    color: white;
+}
+
+.container_main{
+
+    background-color: rgb(230, 255, 170);
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 50px;
+
+    border: 5px solid;
+    border-color: rgb(236, 255, 204);
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.438);
+
+    
+
+    
+
+ 
+}
+
+.formularios{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.label01, 
+.label02{
+    padding: 25px;
+
+}
+ label{
+
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.formularios input[type="number"]{
+    background-color: rgb(230, 253, 253);
+    text-align: centers;
+    border-radius: 20px;
+    width: 30px;
+    height: 20px;
+    font-size: 12px;
+    padding-right: 30px;
+}
+.botaohour{
+    border-radius: 40px;
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(253, 227, 252);
+    
+
+}
+.botaoDesj{
+    border-radius: 40px;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(253, 227, 252);
+
+}
+figure{
+    text-align: center;
+}
+
+figure img{
+    width: 60%;
+    border-radius: 400px;
+    text-align: center;
+}
+
+figure figcaption{
+    font-style: italic;
+}
+footer{
+    color: rgb(112, 111, 111);
+    font-style: italic;
+    text-align: center;
+}

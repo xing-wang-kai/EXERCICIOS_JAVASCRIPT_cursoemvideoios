@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições com IF</title>
+</head>
+<body>
+    <div>
+        <h1>Verificar se está APTO a VOTAR</h1>
+                <label for="text">quanto Anos você tem: </label>
+                <input type="number" class="idade" required value="0">
+                <input type="button"  value="verificar" name="verificar" class="botao" id="verificar" onclick="mostraValor()">
+            <h2>RESPOSTA</h2>
+            <p class="resposta"></p>
+
+    </div>
+    <script>
+        
+       // var botao = window.document.getElementsByClassName("botao")
+
+       // botao.onclick = 
+        
+        function mostraValor(){
+
+
+            var idade = window.document.getElementsByClassName("idade")[0];
+            var resposta = window.document.querySelector(".resposta")
+
+            if (idade.value >= 18 && idade.value <= 65 ){
+                resposta.innerText = `Sua idade é ${idade.value} e vocÊ já tem mais de 18 anos e pode votar`
+            }else{
+                if (idade.value >= 16 || idade.value > 65 ){
+                    resposta.innerText = `Sua idade é ${idade.value} Seu voto é opcional`
+                }
+                else{
+                    resposta.innerText = `Sua idade é ${idade.value} você não precisa votar`
+                }
+            }
+        }
+            
+            
+            
+            
+
+
+    </script>
+</body>
+</html>
