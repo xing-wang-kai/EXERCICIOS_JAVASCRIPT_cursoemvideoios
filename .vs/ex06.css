@@ -100,3 +100,13 @@ select {
 option {
     border-radius: 50px;
 }
+.novaoption {
+    background-color: rgb(137, 220, 253);
+    border-radius: 30px;
+    font-size: 1.7em;
+    padding: 5px;
+}
+
+.novaoption::before {
+    content: "--> ";
+}

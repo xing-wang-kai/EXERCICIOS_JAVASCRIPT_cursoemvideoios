@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="ex06.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>VERIFICADOR DE VALORES</title>
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <h1 class="containerdia">VERIFICADOR DE VALORES</h1>
+            
+        </div>
+    </header>
+    
+    <main>
+        <div class="container_main">
+
+            <div>
+                <section>
+                    <!-- ok -- valida se tem valores
+                         ok -- adiciona valores de 1 até 1000
+                         0k -- tentar adicionar valor que já está na lista
+                        não pode caixa vazia.
+                    
+                        ok -- tamanho da lista
+                        ok -- maior valor
+                        ok -- menor valor
+                        ok -- soma todos valores
+                        ok -- média do valores 
+                        -->
+                    
+                    <p>INSIRA UM NÙMERO DE 1 até 100: <input type="text" class="tnumero"></p>
+                    <p><button class="botao" onclick="adicionarValor()">ADICIONAR</button></p>
+
+                </section>
+                <section>
+
+                    <p>VALORES ADICIONADOS: </p>
+                    <select name="selecionar" id="selecionar" class="tlista" size="10">
+
+
+                    </select>
+                    <p><button class="botao" onclick="acaoValores()">AÇÃO COM VALORES</button></p>
+
+                </section>
+                <section class="res">
+                    <h1>RESULTADO...</h1>
+
+
+                </section>
+                    
+                
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h3>&copy; meu experimentos com JAVASCRIPT</h3>
+    </footer>
+    <script src="ex09.js"></script>
+    
+</body>
+</html>
