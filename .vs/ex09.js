@@ -4,16 +4,6 @@ var resposta = window.document.querySelector(".res");
 
 var lista = [];
 
-/*function valorVazio(numero){
-    if(numero != 0){
-        window.alert("nenhum valor digitado");
-        return false;
-    }
-    else{
-        window.alert(`Valor digitado é ${numero}`);
-        return true;
-    }
-}*/
 function validarNumero(numero, lista){
     if(lista.indexOf(numero.value) != -1){
         return false;
@@ -53,24 +43,13 @@ function acaoValores(){
         window.alert("ADICIONE VALORES ANTES DE CLICAR AQUI!!")
     }else{
 
-    
-
     resposta.innerHTML = "";
 
-    var totalvalor = lista.length
-
-    resposta.innerHTML += `<br><option class="novaoption"> A lista tem o total de  ${totalvalor} item e ela é ${lista}</option></br>`
-
-    var options = window.document.createElement("option");
-    options.setAttribute("class", "novaoption");
-    options.text = `A lista tem o total de  ${lista.length} item e ela é ${lista}`;
+    //var options = window.document.createElement("option");
+    //options.setAttribute("class", "novaoption");
+    //options.text = `A lista tem o total de  ${lista.length} item e ela é ${lista}`;
     //resposta.appendChild(options);
-    /* 
 
-    var listaorganizada = lista.sort();
-    
-    
-    var media = 0 */
     var maior = lista[0];
     var menor = lista[0];
     var soma = 0;
@@ -87,7 +66,8 @@ function acaoValores(){
         }
     }
     var media = (soma/Number(lista.length))
-
+    
+    resposta.innerHTML += `<br><option class="novaoption"> A lista tem o total de  ${totalvalor} item e ela é ${lista}</option></br>`
     resposta.innerHTML += `<br><option class="novaoption"> O MAIOR VALOR É ${maior} </option></br>`
     resposta.innerHTML += `<br><option class="novaoption"> O MENOR VALOR É ${menor} </option></br>`
     resposta.innerHTML += `<br><option class="novaoption"> A SOMA DOS VALORES É ${soma} </option></br>`
